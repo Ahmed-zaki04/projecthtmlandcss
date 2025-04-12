@@ -1,0 +1,56 @@
+h1{
+    background-color: black;
+    color: white;
+    width: 500px;
+}
+
+h3{
+    background-color: rgb(9, 9, 77);
+    color: white;
+    width: 500px;
+
+}
+p{
+    background-color: rgb(255, 228, 255);
+    color: black;
+    width: 600px;
+
+}
+.chapter2{
+    background-color: rgb(7, 61, 7);
+    color: white;
+    width: 525px;
+}
+.login{
+    background-color: rgb(82, 7, 186);
+    color: white;
+    border-radius: 25px;
+    width: 120px;
+    height: 50px;
+    
+}
+.reset{
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    width: 120px;
+    height: 50px;
+}
+body{
+    background-color: rgb(236, 236, 227);
+}
+input[type=text]{
+    border: 3px solid black;
+}
+input[type=password]{
+    border: 3px solid black;
+}
+body{
+    background-repeat: no-repeat;
+}
+div{
+    background-position:;
+}
+.btn:hover{
+
+}

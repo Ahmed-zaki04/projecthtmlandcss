@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* el8y kol el masafat el default */
+    /* w be8aly el parent mayt7araksh ma3 el padding */
+}
+
+.title1{
+    font-size: 55px;
+    text-align: center;
+
+
+}
+.line{
+    width: 85px;
+    height: 4px;
+    background-color: blue;
+    margin: auto;
+    /* 3onsor block beya5od margin 3ashan howa 3amel zay el div*/
+    /* msh hayenfa3 span w law span edeelo display block */
+    margin-top: 100px;
+    /* hayenzl ta7t */
+    margin-bottom: 30px;
+    /* msh hayetla3 fo2 3ashan howa mafeesh mesafa  */
+    /* sa3etha law 3ayz a  oveeride w a5aleee yetla3 8asb */
+    margin-top: -40px;
+
+    /* LTR etgah men left to right law ana baktb bel english*/
+    
+}
+
+
+.container{
+    width: 80%;
+    height: 400px;
+    background-color: red;
+    margin: auto;
+    /* width 80% w margin auto nseeb masafa men el ymeen w shemal 10% w 10% */
+    /* lama agi aktb ay haga hatebdy men fo2 3al shemal fel container akeno msh shayf el masafa el 20% */
+    /* ha3mlo kteer fa odam  law ha3ml ay div adeeha class container ta5od width 80 wel denya tamam */
+
+}
+.team-parent{
+    /* el container msh haya5od postion relative 3ashan howa msh el parent */
+}
+.team-item{
+    float: left;
+    width: 30%;
+    padding: 16px 14px;
+    text-align: center;
+    /* el  swar wel icons wel description kolohom hayeego fel nos lama a3mel text align center */
+    /* el padding hay5aly el sora el talta tenzl ta7t*/
+    /* 3ashan keda bn3eml box sizing border box */
+    /* dayman teshtghal bel percent  */
+}
+.team-item-2{
+    margin: 0 5%;
+}
+.team-item-img{
+    /* background-color: brown; */
+    /* 3ashan te3raf el team img wa5da width ad eh bet2ees bel baclground color */
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    /* ma3nah en fe 3onsor children wa5ed postion absolute related beek enta fa eltazm be7dodak*/
+}
+.team-item-img img{
+        width: 100%;
+        /* 3ashan ta5od 100% men el div beta3t team item img */
+    }
+
+.team-icons{
+    position: absolute;
+    background-color: rgba(10, 20, 50,0.5);
+    /* red green  blue alphA
+    alpha di lel shafafeya */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    visibility: hidden;
+    /* visibility hidden lel loon el eswed */
+    /* el opacity shamla loon el eswed we kol el 3anaser eli gowah  
+    ya3ni law 3andi text hat2asar 3ala daraget zhoor el text*/
+    /* el body howa el general relative */
+    /* el icons 3anaser inline */
+
+}
+.team-item:hover .team-icons{
+    visibility: visible;
+    /* ?????? */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ne3mlo tani */
+/* awel section han3eml div 3ard 100% w height 100vh  */
+/* section tani container gowah 3 divat */
+/* section 3 features */
+/* div kbeer gowah div fe sora we ha3melo overlay */
+
+/* section 4 what we offer */
+/* section 5 3 li fadyeen homa el 3 buttons eli ta7t el sora*/
+
+/* section 6 sora fixed gowah icon w paragraph */
+
+/* section 7 el pricing esma3 el record tani 3ashan hwar  el dayra */
+/* section 8 zay  6 */
+/* section 9 eli 3amlnah */
+/* section 10 shabh 9 */
+/* section 11 el footer beyb2a mo3azmo icons w copyright */

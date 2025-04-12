@@ -1,0 +1,19 @@
+progress{
+    width: 400px;
+    height: 35px;
+    /* 3ayzeen nedeelo color ne3mlha ezay ? search 3ashan gaya fel emthan */
+}
+progress::-webkit-progress-bar{
+    background-color: aqua;
+}
+progress::-webkit-progress-value{
+    background-color: #4caf50;
+}
+input:in-range{
+    background-color: green;
+}
+/* talama been el min wel max fa tamam */
+input:out-of-range{
+    background-color: red;
+    /* law 3ada el max aw 2al 3an el min ye2lb a7mar */
+}

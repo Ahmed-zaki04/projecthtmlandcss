@@ -1,0 +1,76 @@
+[type="text"]{
+    background-color: green;
+    /* el selector etkatab 5alas gowa el square brackets */
+    
+
+}
+[type="password"]{
+    background-color: red;
+}
+/* esmo attribute selector*/
+
+/* /////////////////////////////////// */
+
+.title1{
+    background-color: red;
+
+}
+#title2{
+    background-color: yellow;
+}
+/* 3andi mashakel kteer en howa katab el background yellow  */
+/* specifity */
+/* 1- style inline 0
+2- id 0
+
+3-class, pseudo class , attr selector 1
+4-element 0 */
+
+/* style inline         id              class,pseudo class,attr selector                 element */
+
+
+
+/* 
+.div2 .div10 #div5 div div:hover [type="text"] p p p p p p p div div #p9 .li .li p #p7 .div3 .div7  .p4{
+    color:green
+} */
+
+
+/* style inline         id              class,pseudo class,attr selector                 element */
+/* 0                        0                               1                                   0         10
+
+0                        1                               0                                   0         100
+
+0                         0                                 0                             1               1
+0                       0                                   1                               0             0       10  */
+
+
+
+/* .div2 #div10 #div5 .div3 div:hover [type="text"] p p .p2 p #p9 .li .li p #p7 .div3 .div7  .p4{
+    color:red
+}
+ */
+ 
+
+ .div10{
+    width: 300px;
+    height: 200px;
+    border: 3px solid green;
+    font-size: 20px;
+}
+/* kol el awlad gowa el div edeeho size 20 */
+.title10{
+    font-size: 5em;
+    /* nafs el 5aseya eli mawgoda fel parent bas edrabha fe 5 */
+    /* 5*20=100px */
+    /* default bkam ? */
+    /* relative to parent element */
+
+    font-size: 5rem;
+    /* relative to root element */
+    /* ya3ni maslan h2 wa5ed automatic 100px fana bamsko adrbo fe 5 */
+    /* eli howa 16*/
+
+}
+/* vh 100 ta5od el height kolo */
+/* vw ya3ni view width ya3ni = */

@@ -1,0 +1,60 @@
+button{
+    width: 200px;
+    height: 45px;
+    background-color: #0000ff;
+    color: #ffffff;
+}
+h2{
+    background-color: #a52a2a;
+    color: #ffffff;
+}
+h1{
+    background-color: #8a2be2;
+    color: #ffff00;
+    width: 400px;
+    height: 200px;
+}
+body{
+    background-color: #00ffff;
+}
+p{
+    background-color: #0000ff;
+    color: #ffffff;
+}
+/* lecture 2 eli foo2 ta7t is lecture 3 */
+.btn1{
+    width: 300px;
+    height: 50px;
+    background-color: green;
+    color: #ffffff;
+    border: 3px solid #000000;
+    border-radius: 5px;
+}
+.btn2{
+    width: 300px;
+    height: 50px;
+    background-color: #a52a2a;
+    color: #ffffff;
+    border: 6px dotted red;
+    border-radius: 6px;
+    /* solid 3alatool nest5admha */
+    /* border radius nos kotr w kol ama azwedha kol ama azwaed kotr el darya */
+    /* law el border radius be nos el width wel height  yeb2a perfect circle*/
+    /* ay dayra lazem el width wel height yb2o equal */
+    /*  kotr da eli howa el border radius */
+}
+#btn3{
+    width: 300px;
+    height: 50px;
+    background-color: aquamarine;
+    color: #ffffff;
+}
+.p1{
+    width: 250px;
+    height: 250px;
+    border: 3px solid #000000;
+
+    /* taree2a helwa teshof beeha el width wel height eli enta hato w mkkn brdo te3ml background colour */
+}
+/* el shasha 3obara 3an alafat el pixels 3ala asas hagm el shasha bazbat el pixels*/
+/* css stands for cascading stylesheet */

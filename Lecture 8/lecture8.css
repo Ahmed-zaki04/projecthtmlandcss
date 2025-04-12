@@ -1,0 +1,155 @@
+.div1{
+    width: 250px;
+    height: 200px;
+    border: 3px solid red;
+    margin: 100px auto;
+    /* top bottom 100px and left right auto */
+
+    outline: 5px solid blue;
+    /* border fo2 el border 
+    beya5od nafs eli el border beya5do*/
+
+    /* tab wel space been el border wel outline di esmaha eh */
+
+    outline-offset: 20px;
+    /* masafa ben el border wel outline be 20px */
+
+    /* gaya fel emthan */
+    /* //////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+}
+.p1{
+    letter-spacing: 2px ;
+    /* masafa been el hroof */
+    word-spacing: 40px;
+    /* masafa been el kalam*/
+    line-height: 40px;
+    /* el ertfa3 mabeen el stoor */
+
+
+    text-transform: lowercase;
+    /* kol el 7roof small
+    used for paragraphs */
+
+    text-transform: uppercase;
+    /* kol el 7roof capital
+    used for headings */
+
+    text-transform: capitalize;
+    /* be capitalize awel 7arf men kol kelma */
+    /* a5er 5aseya heya el betetba2 3andi 
+    lma katbt aktar men keema le nafs el selector beya5od a5er wahda bas */
+
+    font-size: 60px;
+    /* kol 7arf 60px */
+
+    font-weight: bold;
+    /* somk te2el for headings not for paragraphs maybe for special words */
+
+    /* wahed Gay men tal abeeb beys2alak 800px font weight y3ni eh ? 
+    te2olo y3ni bold 3ashan men 700 le 900px 
+    font-weight men 100 le 400 normal eli howa el default bdoon tada5ol
+    font-weight men 700 le 900* bold*/
+
+    font-style: normal;
+    font-style: italic;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-family visual sttudio menzalk 12 5at mo5talef */
+    font-family: 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+    /* law 3ayz 5at men bra visual studio rooh google fonts */
+    /* law 0ffline me7tag anazlo */
+    /* law online lazem a5od @import */
+    /* bas el ahsan ena\k tenazlo ka folder fel  mashoor3 bet3ak */
+
+    font: italic bold 22px Arial;
+
+    /* shorthand */
+    /* style weight size family */
+    
+    /* font style oblique brdo zay italic */
+
+}
+.a1{
+    font-size: 70px;
+    /* range el normal been 18px w 28px */
+    /* control of the size of the kalam */
+    text-decoration: none;
+    /* 3ashan tsheel el 5at el taht el kelma fe tag el a */
+
+    text-decoration: underline;
+
+    /* ersem 5at  ta7t*/
+    text-decoration: line-through;
+    /* ersem 5at 3al kelma */
+    /* shabh el del */
+
+    text-decoration: overline;
+    /* fo2 el kelma ersm 5at */
+
+
+
+
+
+}
+.a1::selection{
+    color: yellow;
+    background-color: aliceblue;
+    /* lama te3ml select 3ala kalam eh eli y7sal */
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+
+
+
+.div2{
+    width: 250px;
+    height: 200px;
+    background-color: red;
+    float: left;
+    margin-left: 200PX;
+}
+
+.div3{
+    width: 250px;
+    height: 200px;
+    background-color: green;
+    float: left;
+    margin: 0PX 70PX;
+}
+.div4{
+    width: 250px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+
+
+}
+.pARENT{
+    background-color: blueviolet;
+    overflow: auto;
+}
+/* 3ayz ageeb el 3 divat ganb ba3d h3ml float left*
+/* law 3amlt fel etneen el tnayeen bas msh hateshtghal */
+/* parent shayl el 3 divat bas el loon msh bayen 3ashan el  float */
+/* a3mel eh ? */
+/* over flow auto 3aashan yenzl yeban ma3 el children btoo3o */
+/* da ma3nah en el float leeh mashakkel en law 3amlt 3 divat gowa parent el parent msh hyban w 3ashan abyenha a3ml overfflow auto */
+
+/* aw mmkn te3ml le a5er div gowa el parent clear both  */
+
+.div5{
+    clear: both;
+
+}
+/* overflow auto ahsan haga bet7el moshkelet el float */

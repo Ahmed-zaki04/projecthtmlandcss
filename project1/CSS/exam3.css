@@ -1,0 +1,10 @@
+/* .a1{
+    font-size: 70px;
+}
+a1:focus{
+    color: yellow;
+} */
+
+p{
+    transition: 3s;
+}

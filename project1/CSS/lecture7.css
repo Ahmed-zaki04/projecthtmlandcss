@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* el8y kol el masafat el default bta3t HTML */
+/* kol el masharee3 bet3ml keda */
+/* lazem dayman aktbo fel awal mayenfa3sh aktbo fel a5er 3ashhan hay3eml override le kol el ablo */
+/* 3alamt el negma ma3naha kol el html tags esmaha el universal tag */
+
+.div1{
+    width: 300px;
+    height: 200px;
+    border: 3px solid gray;
+        /* ay somk border foo2 el 1px beyb2a marfood fel masharee3 kol 2alel el ama tesomk kol ama el design yeb2a 2a2al kol ama yekoon orayeb le 2025*/
+        text-align: center;
+        /* text align center hatcenter ay haga gowa el div */
+    margin-left: 200px;
+    margin-top: 200px;
+    /* talama msh text bast5dam margin */
+    /* margin auto haycenter el div msh el kalam*/
+
+    text-align: center;
+    /* haycenter el text eli gowa el div */
+    margin: 10px 20px 30px;
+    /* top right left bottom */
+    margin: 150px;
+    /* top right bottom left */
+    margin: 200px 50px;
+    /* top bottom right left */
+
+    margin: 200px 100px 50px 10px;
+    
+    /* top right bottom left */
+
+    /* el margin mmknn beya5od 8 values total */
+
+    /* so2al gay fel emthan */
+    /* law ana 3ayz a3mel masafa been el kalam wel border */
+
+    /* padding beya5od nafs el values ma3ada auto */
+    /* the space between content and border is padding */
+    padding-left: 30px;
+    padding-top: 25px;
+    /* el padding lewahdo kda 3amal moshkela eno 8ayar el 7dood wel width wel height et8ayaro */
+    /* el mafrood el 7dood wel width wel height yefdalo sabteen */
+    /* therefore we do box sizeing border box */
+    /* which means en ay border aw ay padding yet3eml may8ayarsh men el width wel height */
+
+}
+
+.div11{
+    width: 300px;
+    height: 200px;
+    background-color: red; 
+    float: left;
+    margin-left: 200px;
+    padding-left: 20px;
+}
+
+.div12{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    float: left;
+    margin-left: 60px;
+    margin-right: 60px;
+    /* el margin right msh hatzo2 el div shemal heya hatseeeb el mafsafa 3ala ymeeno 3ashan fe div ba3dee */
+}
+
+.div13{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    float: left;
+}
+/* float left te5aly el div tebda2 men el shemal */
+
+.a1{
+    display: block;
+}
+/* bet8ayar el hagat el inline block */
+/* bas ay haga block msh ahsan haga 3ashan te3mlha inline */
+
+.div11:hover{
+    background-color: blue;
+    color: white;
+}
+
+.title11{
+    color: red;
+}
+.btn11{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: blue;
+    border-radius: 4px;
+}
+
+.btn11:hover{
+    background-color: red;
+    color: dds
+    ;
+}
+/* ba2a 3ndi 3 divat ta7t ba3d 3ashan block*/
+/* float left hayb2o ganb ba3d bas homa lesa block */
+/* akeni 3amalt 3 block */
+/* float right hat8alee yebda2 men el ymeen */
+/* pseudo classes hover active focus */

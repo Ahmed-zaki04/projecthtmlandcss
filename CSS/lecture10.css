@@ -1,0 +1,100 @@
+.parent{
+    position: relative;
+    /* egbary lazem tektbha fel parent eli shayel el children */
+    /* bey5aly el abnaa2 yeltazmo be7dood el parent */
+
+}
+.div1{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    z-index: 4;
+    /* top left right bottom beytfet7o bel postion absolute  */
+}
+.div2{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(0, 255, 34);
+    position: absolute;
+    z-index: 1;
+    /* z-index bet3ed tarteeb el hagat */
+    /* 0 kema default */
+    /* tool ama el z index a3la men el default howa eli hayban el awal */
+}
+.div3{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(27, 1, 172);
+    position: absolute;
+    /* el talata fo2 ba3d wel azra2 hayb2a eli bayenn */
+    position: fixed;
+    /* tesabet el haga wenta betscroll */
+
+    z-index: 2;
+    /* mmkn kaman aktbo bel negative wel negative howa eli hayban fel a5er */
+    z-index: -1;
+    /* keema el default lel postion esmaha static */
+    /* fixed absolute relative static */
+    /* fixed w absolute are dynamic */
+    /* el default value of a postion is static */
+    /* dayman awel ama ast5dam postion relative */
+}
+.div10{
+    width: 300px;
+    height: 200px;
+    border: 3px solid gray;
+    transition: 2s;
+
+}
+.title1{
+    opacity: 0.1;
+    visibility: hidden;
+    /* te5fy el 3onsor tamaman bas makano beyfdal mawgood */
+    /*el opacity betshafefo bas lesa mawgood */
+    display: none;
+    /* taree2a bardo ne5fy beeha el  3onsor bas el maradi wala hata makano mawgood*/
+    display: block;
+    /* 3aks display none */
+}
+.div10:hover .title1{
+    /* ana 3ayz el title yeban lama a3mel hover */
+    opacity: 1;
+    visibility: visible;
+    transition: 10s;
+    /*3aks hidden  */
+}
+
+
+/* //////////////////// */
+
+/* pseduo classes: hover active focus*/
+/* pseduo elements : after before */
+
+
+.a1{
+    font-size: 70px;
+}
+.a1:hover{
+    color: green;
+}
+.a1:active{
+    color: yellow;
+    /* wana bad5t 3ala el beta3 */
+} 
+
+.a1:focus{
+    /* a5er makan dost 3aleeh */
+    color: black;
+}
+
+
+/* //////////////////////////////////////////////// */
+
+/* icons */
+/* makatbt icons barbotha bel html w a5od el files el ana 3ayzeha */
+/* el icons beta5od mo3amlt el font */
+.i2{
+    color: red;
+    font-size: 70px;
+}

@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* el8y kol el masafat el default */
+    /* w be8aly el parent mayt7araksh ma3 el padding */
+}
+
+.title1{
+    font-size: 55px;
+    text-align: center;
+
+
+}
+.line{
+    width: 85px;
+    height: 4px;
+    background-color: blue;
+    margin: auto;
+    /* 3onsor block beya5od margin 3ashan howa 3amel zay el div*/
+    /* msh hayenfa3 span w law span edeelo display block */
+    margin-top: 100px;
+    /* hayenzl ta7t */
+    margin-bottom: 30px;
+    /* msh hayetla3 fo2 3ashan howa mafeesh mesafa  */
+    /* sa3etha law 3ayz a  oveeride w a5aleee yetla3 8asb */
+    margin-top: -40px;
+
+    /* LTR etgah men left to right */
+    
+}
+
+
+.container{
+    width: 80%;
+    height: 400px;
+    background-color: red;
+    margin: auto;
+    /* width 80% w margin auto nseeb masafa men el ymeen w shemal 10% w 10% */
+    /* lama agi aktb ay haga hatebdy men fo2 3al shemal fel container akeno msh shayf el masafa el 20% */
+    /* ha3mlo kteer fa odam  law ha3ml ay div adeeha class container ta5od width 80 wel denya tamam */
+
+}
+.team-parent{
+
+}
+.team-item{
+    float: left;
+    width: 30%;
+    padding: 16px 14px;
+    text-align: center;
+    position: relative;
+    /* el  swar wel icons wel description kolohom hayeego fel nos lama a3mel text align center */
+    /* el padding hay5aly el sora el talta tenzl ta7t*/
+    /* 3ashan keda bn3eml box sizing border box */
+    /* dayman teshtghal bel percent  */
+}
+.team-item-2{
+    margin: 0 5%;
+}
+.team-item-img{
+    /* background-color: brown; */
+    /* 3ashan te3raf el team img wa5da width ad eh bet2ees bel baclground color */
+    width: 90%;
+    margin: auto;
+    position: relative;
+    /* ma3nah en fe 3onsor children wa5ed postion absolute related beek enta fa eltazm be7dodak*/
+}
+.team-item-img img{
+        width: 100%;
+        /* 3ashan ta5od 100% men el div beta3t team item img */
+    }
+
+.team-icons{
+    position: absolute;
+    background-color: rgba(10, 20, 50,0.5);
+    /* red green  blue alphA
+    alpha di lel shafafeya */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    visibility: hidden;
+    /* visibility hidden lel loon el eswed */
+    /* el opacity shamla loon el eswed we kol el 3anaser eli gowah  
+    ya3ni law 3andi text hat2asar 3ala daraget zhoor el text*/
+    /* el body howa el general relative */
+    /* el icons 3anaser inline */
+
+}
+.team-item:hover .team-icons{
+    visibility: visible;
+    /* ?????? */
+}
+
+/* ne3mlo tani */
+/* awel section han3eml div 3ard 100% w height 100vh  */
+/* section tani container gowah 3 divat */
+/* section 3 features */
+/* div kbeer gowah div fe sora we ha3melo overlay */
+
+/* section 4 what we offer */
+/* section 5 3 li fadyeen homa el 3 buttons eli ta7t el sora*/
+
+/* section 6 sora fixed gowah icon w paragraph */
+
+/* section 7 el pricing esma3 el record tani 3ashan hwar  el dayra */
+/* section 8 zay  6 */
+/* section 9 eli 3amlnah */
+/* section 10 shabh 9 */
+/* section 11 el footer beyb2a mo3azmo icons w copyright */
+
+.team-icons i {
+    color: rgb(255, 255, 255);
+    background-color: aqua;
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin-left: auto;
+    margin-top: auto;
+    /* 3ashan ageeb el icons 3al ymeen 5ales */
+    /* la8ayet ama yewsal le 7dodd el parent beta3o  */
+    line-height: 45px;
+    /* 3ashan a center el icons fel nos bzbt */
+    /* el icons to3tbar text  */
+
+
+    /* ////////////////////////////////////// */
+
+}
+/* pseudo elements: after before */
+
+.team-item::after{
+    content: "";
+    /* dayman e3melha w sebha fadya */
+    position: absolute;
+    /* benesba lel team item */
+    width: 0;
+    height: 0 ;
+    top: 0;
+    left: 0;
+    /* el div el wahmy haytla3 men fo2 3al shemal */
+    /* law 3yz men fo2 3al ymeen yb2a sheel left w 5aleeha right */
+    /* law 3ayzo maybda2sh men no2ta w yebd2 men fo2 le ta7t bel width kolo */
+    width: 100%;
+    /* akeno race */
+    /* law 3ayz ygro men shemal le ymeen */
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* law bad2een men no2ta  yeb2a*/
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    /* tesafer el etneen */
+    background-color: black;
+    opacity: 0;
+    /* law 3ayz adeelo loon w ye5tfy hadeelo back ground w opacity men 1 le 0*/
+    opacity: 1;
+    background-color: red;
+    /* div wahmy ya ma3lem */
+
+
+
+}
+.team-item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 2s;
+    opacity: 0;
+    /* loon el eswed ba2a shamel el 3ard wel ertfa3 */
+}
+
+.team-item::before{
+    /* div wahhmy abl div el after */
+    content: "";
+    /* dayman e3melha w sebha fadya */
+    position: absolute;
+    /* benesba lel team item */
+    width: 0;
+    height: 0 ;
+    top: 0;
+    left: 0;
+    /* el div el wahmy haytla3 men fo2 3al shemal */
+    /* law 3yz men fo2 3al ymeen yb2a sheel left w 5aleeha right */
+    /* law 3ayzo maybda2sh men no2ta w yebd2 men fo2 le ta7t bel width kolo */
+    width: 100%;
+    /* akeno race */
+    /* law 3ayz ygro men shemal le ymeen */
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* law bad2een men no2ta  yeb2a*/
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    /* tesafer el etneen */
+    background-color: black;
+    opacity: 0;
+    /* law 3ayz adeelo loon w ye5tfy hadeelo back ground w opacity men 1 le 0*/
+    opacity: 1;
+    background-color: green;
+    /* div wahmy ya ma3lem */
+
+
+
+}
+.team-item:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 2s;
+    opacity: 0;
+    /* loon el eswed ba2a shamel el 3ard wel ertfa3 */
+    /* ell before 3aks el after */
+}

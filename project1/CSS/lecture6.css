@@ -1,0 +1,31 @@
+/* external stylesheet */
+
+body{
+    height: 4000px;
+    background-color: gray;
+    background-image: url(../images/ahmed.jpg);
+    /* image always has priorit over color */
+    background-repeat: no-repeat;
+    /* 3ayz a5aly el sora ta5od el shasha kolaha */
+    background-position: center;
+    /* at2al so2al gay fel emthan */
+    background-attachment: fixed;
+    /* hat5aleeha fel nos mahma 3amalt scroll 
+    law ma3amalthash hatb2a fel nos ta7t */
+    background: blue url(../images/download.png) no-repeat fixed center;
+    /* background esmaha shorthand ka e5tsar */
+    /* msh lazem bel tarteeb bas yofdal  */
+    /* erga3 le wara 5atwa hya ../ */
+    background-size: cover;
+}
+.div1{
+    width: 300px;
+    height: 250px;
+    border: 3px solid red;
+    background-image: url(../images/download.jpg);
+    /* msh hata5od el mesa7a */
+    background-size: cover;
+    
+    /*3ashan taa5od mes7at el div */
+    /* msh lazem a3ml semi colon */
+}

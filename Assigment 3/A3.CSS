@@ -1,0 +1,58 @@
+body{
+    background-image: url(../images/programmer.webp);
+    background-repeat: no-repeat;
+
+}
+.div1{
+    margin: auto;
+    background-image: url(../images/school-coding-data-software-development.jpg);
+    width: 250px;
+    height: 100px;
+}
+h1{
+    color: green;
+    background-color: white;
+    text-align: center;
+}
+p{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    color: green;
+}
+h2{
+    color: green;
+    background-color: white;
+    text-align: center;
+}
+h3{
+    color: green;
+    text-align: center;
+
+}
+.div2{
+    background-image: url(../images/school-coding-data-software-development.jpg);
+    width: 250px;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+}
+.div3{
+    margin: auto;
+    width: 125px;
+    height: 300px;
+}
+.div4{
+    width: 250px;
+    height: 600px;
+    background-image: url(../images/word-idea-on-the-dices-1161363.jpg)
+
+}
+.div5{
+    background-color: white;
+    width: 125px;
+    height: 300px;
+
+}

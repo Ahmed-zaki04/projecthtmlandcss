@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.header{
+    width: 100%;
+    /* 5od el width beta3 el parent kolo eli howa el body */
+    height: 60px;
+    background-color: rgb(90, 89, 89);
+    position: fixed;
+    top: 0;
+    opacity: 1;
+    /* opacity 1 ya3ni mafeesh shafafaya */
+    /* men 0 le 1 */
+    opacity: 0.7;
+    /* top,left,right, bottom el hagat di msh hatenfa3 men 8er postion fixed aw postion absolute */
+    /* 3ashan asabet el header foo2 top 0 ya3ni men el top 3ayz el masafa 0*/
+    /* 3ashan asabet el header foo2 */
+}
+.image{
+    width: 100px;
+    height: 10px;
+    margin-left: 170px;
+}
+.list{
+    list-style: none;
+    float: left;
+    margin-right: 150px;
+    padding-top: 30px;
+    /* yel8y el bullet points */
+    /* aw list style type el etneen sa7 */
+    /* homa 3anaser block fa homa ta7t ba3d */
+}
+/* fe 4 toro2 talata 8alat w wahda sa7  */
+/* 1st */
+/* li{
+    display: inline;
+} */
+/* 2nd way a3od ageeb kol list w adeelo class bas di taree2a mot3eba*/
+/* 3rd way enhom kolohom ya5do nafs el class haywfar 3aleek el css bas msh haywafar fel html*/
+
+/* 4th way Nesting */
+.list li{
+    /* ay haga li gowa divet el list */
+    display: inline;
+    color: white;
+    margin-left: 20px;
+    
+    /* delwa2ty 3ayz ageeb el ul fel header */
+    /* float left */
+    /* law 3ayz aseeb masafa mabenhom ha3ml margin */
+    /* law 3ayz anazlhom ta7t shewaya margin msh hatenfa3 3ashan dool inline fa el margin msh hayenfa3 3ashan el 3anaser el vertical msh betstageeb ma3 el margin*/
+    /*  padding fel header w fel li msh hayenfa3 3ashan el image hatedar  */
+    /* lazem ne3mlo fel ul */
+}
+.list li a{
+    color: white;
+    text-decoration: none;
+}
+.title1{
+    text-align: center;
+    font-size: 65px;
+    /* wtf el title ba2a foo2 el header  */
+}

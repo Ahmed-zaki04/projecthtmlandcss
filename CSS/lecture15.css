@@ -1,0 +1,224 @@
+.div1{
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    /* 3ayzenn ne3ml animation me7tageen 2  3onsors 
+    esm el 3onsor wel moda  */
+    animation-name: change;
+    animation-duration: 3s;
+    /* animation-iteration-count: infinite; */
+    animation-iteration-count: 2;
+    /* iteration count berakm hay3eml el cycle based 3la 3aded el count */
+    /* tab3an law infinte hay3emlo lel abad */
+    /* animation-delay: 3s; */
+    /* msh hayeshtghal ela ba3d 3 seconds */
+    /* testafeed beeha ezay ? */
+    /* el harka el tatboo3eya eli hatetba2 fel task */
+
+}
+@keyframes change{
+    /* ba3d el keframe baktb esm el animation eli katabto foo2 */
+    0%{
+        background-color: blue;
+        
+    }
+    25%{
+        background-color: white;
+        /* width: 400px;
+        height: 250px; */
+    }
+    50%{
+        background-color: brown;
+        /* width: 1000px;
+        height: 50px; */
+        /* 3ayzen ne3ml ezaha 3nd modet el 50% fa sa3etha msh han3eml margin han3ml left*/
+        /* postion absolute lel div w left 3nd el div el asly be 0 w ba3deeha e5tar el moda edeelo left 900 aw ayan kan*/
+        left: 900px;
+    }
+    75%{
+        background-color: black;
+        /* width: 400px;
+        height: 250px; */
+    }
+    100%{
+        background-color: yellow;
+        
+    }
+    /* el 25% tosawy 2.5s men 10s  betets2el fel interview*/
+
+}
+
+.div2{
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 150px;
+    /* top fekertha 3ashan el divat ba2o fo2 ba3d fa 3amlt top 3ashan ashofhom kolhom lewa7dhom */
+    /* 3ayzenn ne3ml animation me7tageen 2  3onsors 
+    esm el 3onsor wel moda  */
+    animation-name: change;
+    animation-duration: 3s;
+    /* animation-iteration-count: infinite; */
+    animation-iteration-count: 2;
+    /* iteration count berakm hay3eml el cycle based 3la 3aded el count */
+    /* tab3an law infinte hay3emlo lel abad */
+    animation-delay: 3s;
+    /* msh hayeshtghal ela ba3d 3 seconds */
+    /* testafeed beeha ezay ? */
+    /* el harka el tatboo3eya eli hatetba2 fel task */
+
+}
+
+
+
+
+
+
+@keyframes change{
+    /* ba3d el keframe baktb esm el animation eli katabto foo2 */
+    0%{
+        background-color: blue;
+        
+    }
+    25%{
+        background-color: white;
+        /* width: 400px;
+        height: 250px; */
+    }
+    50%{
+        background-color: brown;
+        /* width: 1000px;
+        height: 50px; */
+        /* 3ayzen ne3ml ezaha 3nd modet el 50% fa sa3etha msh han3eml margin han3ml left*/
+        /* postion absolute lel div w left 3nd el div el asly be 0 w ba3deeha e5tar el moda edeelo left 900 aw ayan kan*/
+        left: 900px;
+    }
+    75%{
+        background-color: black;
+        /* width: 400px;
+        height: 250px; */
+    }
+    100%{
+        background-color: yellow;
+        
+    }
+    /* el 25% tosawy 2.5s men 10s  betets2el fel interview*/
+
+}
+
+
+
+
+
+
+
+.div3{
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    /* 3ayzenn ne3ml animation me7tageen 2  3onsors 
+    esm el 3onsor wel moda  */
+    animation-name: change;
+    animation-duration: 3s;
+    /* animation-iteration-count: infinite; */
+    animation-iteration-count: 1;
+    /* iteration count berakm hay3eml el cycle based 3la 3aded el count */
+    /* tab3an law infinte hay3emlo lel abad */
+    animation-delay: 1s;
+    /* msh hayeshtghal ela ba3d 3 seconds */
+    /* testafeed beeha ezay ? */
+    /* el harka el tatboo3eya eli hatetba2 fel task */
+    /* animation-fill-mode: forwards; */
+    /* 3ashan yefdal sabet fel a5er  */
+    /* w 3and el 100% left 900px */
+    /* animation-fill-mode: backwards; */
+    /* beysbt fel wad3 el start */
+    /* lazem ykoon fe delay 3ashan el backwards yeshtghal */
+    /* sa3etha el blue el 3nd 0% howa el start beta3t msh el ahmar */
+    animation-fill-mode: both;
+    /* el 3nd 0% wel 100% hayetnafzo */
+    animation-direction: reverse;
+    /* 3ayz yenafz 100% el awal legad 0% */
+    animation-direction: alternate;
+    
+    animation-direction: alternate-reverse;
+    /* e3ml search 3an el etneen dool */
+    animation-timing-function: linear;
+    /* sor3a sabta men awel ama yet7arak*/
+
+    /* e3ml search 3an el keema el default */
+    /* gaya fel e5tbar */
+
+    animation-timing-function: ease;
+    /* beybda2 bera7a w yesra3 fel nos w yebata2 fel a5er */
+    /* default value */
+    animation-timing-function: ease-in;
+    /* beybda2 bera7a w yesra3 fel a5er  */
+    animation-timing-function: ease-out;
+    /* beysro3a fel awal w yefarmel fel a5er 3aks el ease in */
+    animation-timing-function: ease-in-out;
+    /* beybda2 bera7a w yenhy bera7a shabhh el ease */
+    /* hal el ease in out el default wala el ease wala linear ??*/
+    /* e3ml search */
+
+    animation: change 3s ease 3s ;
+    /* beta5od el 8 5as2es */
+    /* name, duartion, timeing function el heya el ease,  el delay, iteration count, direction , fill mode, play state   */
+
+}
+@keyframes change{
+    /* ba3d el keframe baktb esm el animation eli katabto foo2 */
+    0%{
+        background-color: blue;
+        
+    }
+    25%{
+        background-color: white;
+        /* width: 400px;
+        height: 250px; */
+    }
+    50%{
+        background-color: brown;
+        /* width: 1000px;
+        height: 50px; */
+        /* 3ayzen ne3ml ezaha 3nd modet el 50% fa sa3etha msh han3eml margin han3ml left*/
+        /* postion absolute lel div w left 3nd el div el asly be 0 w ba3deeha e5tar el moda edeelo left 900 aw ayan kan*/
+        left: 900px;
+    }
+    75%{
+        background-color: black;
+        /* width: 400px;
+        height: 250px; */
+    }
+    100%{
+        background-color: yellow;
+        /* left: 1550px; */
+        
+    }
+    /* el 25% tosawy 2.5s men 10s  betets2el fel interview*/
+    /* ehna 3amlna div1 w 2 duration 3s w delay 3s laken div3 5ad delay 6s 3ashan yebda2 el animation beta3o ba3d div1 w 2 */
+    /* task
+    8divs momkn te3mlhom cars */
+    /* 4shemal w 4 ymeen */
+    /* ana 3ayz lama el yrooho men ymeen le shemal yfdal sabet 3al shemal*/
+    /* wel 3aks laken kolhom wa5deen delay ela awel wahed */
+}
+.div3:hover{
+    animation-play-state: paused;
+    /* awel ama hover el div testop */
+    animation-play-state: running;
+    /* el default */
+}
+/* animation: [name] [duration] [timing-function] [delay]
+ [iteration-count] [direction] [fill-mode] [play-state]; */
+div3{
+    animation: change 2s ease 3s 2 alternate forwards paused   ;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+}
